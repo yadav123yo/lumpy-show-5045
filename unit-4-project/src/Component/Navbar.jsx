@@ -44,32 +44,32 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/5">
                     Entertainment
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/6">
                     Jobs & Education
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/7">
                     Sports
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/8">
                     Technology
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/9">
                     Lifestyle
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/10">
                     Gallary
                   </a>
                 </li>
@@ -85,12 +85,12 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="/">
+                      <a className="dropdown-item" href="/11">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/">
+                      <a className="dropdown-item" href="/12">
                         Another action
                       </a>
                     </li>
@@ -98,9 +98,9 @@ function Navbar() {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/">
+                      <Link className="dropdown-item" to="/">
                         Something else here
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
